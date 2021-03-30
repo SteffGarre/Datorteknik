@@ -1,14 +1,14 @@
 Stacking Game!
 	
-Mål och krav
+Mål och krav: 
 Målet med projektet är att utveckla ett spel baserat på arkadspelet Stacker samt att uppfylla kraven för ett avancerat projekt. Utvecklingen görs med hjälp 
 av ChipKIT Uno32 samt Basic I/O Shield. Programmering av spelet görs i C.
 
-Beskrivning av spel
+Beskrivning av spel: 
 Målet med spelet är att stapla block som rör sig i sidled, där blockens hastighet ökar och storlek minskar ju högre upp spelaren kommer. Spelet når sitt slut 
 när spelaren når toppen av skärmen eller helt missar att stapla blocken.
 
-Förutsättningar/Regler
+Förutsättningar/Regler: 
 Ett set består vid start av fyra block. När spelaren når den första nivån (ca 1/3 av skärmen) minskar set-storleken till tre block, om spelaren når den sista
 nivån (ca 2/3 av skärmen) minskar set-storleken till två block. Hastigheten ökar efter varje nivå.
 Om spelaren delvis missar att stapla blocken minskar set-storleken.
@@ -25,7 +25,7 @@ Funktioner som har implementeras:
 
 
 
-Lösning
+Lösning: 
 All utveckling av projektet har utförts med hjälp av ChipKIT Uno32 samt Basic I/O Shielden. 
 All kod skrevs i programmeringsspråket C. För all kommunikation samt delning av mindre kodsekvenser användes Discord. Spelet har utformats för att fungera 
 på OLED displayen på Basic I/O Shielden och styras med hjälp av Basic I/O Shielden knappar för att bestämma när blocken i rörelse ska stanna.
