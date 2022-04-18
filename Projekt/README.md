@@ -1,4 +1,4 @@
-Stacking Game!
+# Stacking Game!
 	
 Mål och krav: 
 Målet med projektet är att utveckla ett spel baserat på arkadspelet Stacker samt att uppfylla kraven för ett avancerat projekt. Utvecklingen görs med hjälp 
